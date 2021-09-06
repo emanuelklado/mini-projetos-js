@@ -1,6 +1,8 @@
 :root {
-    --primary-color: #F4CE01;
-    --secondary-color: #0F0F0B;
+    /*--primary-color: #d46910;*/
+    --secondary-color: #0511ac;
+    background-image: url('BG.jpg');
+
 }
 
 * {
@@ -36,7 +38,7 @@ body {
     margin-top: 50px;
     box-shadow: 1px 1px 5px var(--secondary-color);
     font-size: 3rem;
-    color: var(--primary-color);
+    color: #ffffff
 }
 
 .todo__list {
