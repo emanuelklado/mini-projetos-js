@@ -2,6 +2,7 @@
     /*--primary-color: #d46910;*/
     --secondary-color: #0511ac;
     background-image: url('BG.jpg');
+    background-repeat: repeat;
 
 }
 
@@ -56,7 +57,11 @@ body {
     align-items: center;
     padding: 5px;
     box-shadow: 1px 1px 5px var(--secondary-color);
+    cursor: pointer;
+
 }
+
+
 .todo__item > div {
     width: 80%;
 }

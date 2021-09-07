@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>To do List - Banco Itaú</title>
+    ><script> src= "https://kit.fontawesome.com/a076d05399.js"</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
 </head>
 <body>
     <div class="todo">
@@ -12,8 +14,8 @@
             To do List - Banco Itaú
         </div>
 
-        <div class="todo__list" id='todoList'>
-
+            <div class="todo__list" id='todoList'>
+            
         </div>
 
         <div class="todo__new-item" id="newItem">
@@ -22,6 +24,15 @@
             <div>&and;</div>
         </div>
     </div>
+    
     <script src="app.js"></script>
+    <script>
+        const dragArea = document.querySelector(".todo__list");
+        new Sortable(dragArea, {
+            Animation: 350
+        });
+    </script>
+
+
 </body>
 </html>
